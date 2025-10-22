@@ -7,7 +7,9 @@ public class NestedOuter {
 
     static class Nested {
         private int nestedInstaceValue = 1;
-        
+
+
+
         public void print() {
             // 자신의 멤버에 접근
             System.out.println("nestedInstaceValue = " + nestedInstaceValue);
